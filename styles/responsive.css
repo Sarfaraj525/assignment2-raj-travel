@@ -36,4 +36,16 @@
         padding: 20px;
     }
 
+    .input-img-section{
+        position: relative;
+      }
+      .discount{
+        position: absolute;
+        border-radius: 5px;
+        bottom: 8%;
+        left: 65%;
+        transform: rotate(-19.628deg);
+        width: 100px;
+        height: 60px;
+      }
 }

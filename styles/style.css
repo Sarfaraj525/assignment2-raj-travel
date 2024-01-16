@@ -152,7 +152,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 40px;
     
   }
   .left-side {
@@ -336,7 +336,7 @@ body{
     padding: 20px;
 }
   
-.input-section p{
+.input-section h5{
     color: #5A5A5D;
     font-size: 1rem;
     font-weight: 400;
