@@ -324,17 +324,18 @@ body{
   .newsletter-section {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    gap: 20px;
     padding: 30px;
     max-width: 1170px;
     margin: 0 auto;
     
   }
+  .input-section {
+    border: 1px solid tomato;
+    border-radius: 20px;
+    padding: 20px;
+}
   
-  .input-section h5 {
-    font-size: 1.5rem;
-    font-weight: 800;
-  }
 .input-section p{
     color: #5A5A5D;
     font-size: 1rem;
@@ -367,12 +368,35 @@ button {
   width: 100%;
   height: auto;
 }
+.input-img-section{
+  position: relative;
+}
+.discount{
+  width: 200px;
+  height: 120px;
+  background-color: #FF5400;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFF;
+  border-radius: 16px;
+  position: absolute;
+  bottom: 10%;
+  left: 67%;
+  transform: rotate(-19.628deg);
+}
 
 /*unique section start*/
 .unique-section{
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
+  border: 1px solid tomato;
+  border-radius: 20px;
+  padding: 20px;
+  
+  
   
 }
 .unique-section h3{
@@ -388,6 +412,7 @@ button {
 
 /*start of footer section*/
 .footer {
+  
   align-items: center;
   text-align: center;
   justify-content: space-between;

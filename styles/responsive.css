@@ -21,7 +21,7 @@
         font-size: 2rem;
         
       }
-      .flex-container, .best-price, .sections {
+      .flex-container, .best-price, .sections, .newsletter-section {
         flex-direction: column;
       }
       .left-side, .right-side {
