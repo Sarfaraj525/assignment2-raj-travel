@@ -21,7 +21,7 @@
         font-size: 2rem;
         
       }
-      .flex-container{
+      .flex-container, .best-price, .sections {
         flex-direction: column;
       }
       .left-side, .right-side {
@@ -35,4 +35,5 @@
         margin-left: 0px;
         padding: 20px;
     }
+
 }
