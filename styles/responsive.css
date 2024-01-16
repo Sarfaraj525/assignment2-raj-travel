@@ -1,4 +1,38 @@
  /* Media query for screens 600px or less */
-@media screen and (max-width: 600px);{
+@media screen and (max-width: 600px) {
+      .item-container{
+        display: none;        
+      }  
+      .bar-container{
+        display: flex;
+        font-size: 30px;
+        align-items: center;
         
+      }
+      
+      .form-container {
+        
+        flex-direction: column;
+        margin-bottom: 20px;
+        
+    }
+    .content-overlay h1 {
+        
+        font-size: 2rem;
+        
+      }
+      .flex-container{
+        flex-direction: column;
+      }
+      .left-side, .right-side {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .right-side img {
+        width: 80%;
+        height: 200px;
+        border-radius: 16px;
+        margin-left: 0px;
+        padding: 20px;
+    }
 }

@@ -7,16 +7,20 @@ body{
 body{
     margin: 0;
     padding: 0;
+
 }
 .header-start{
     max-width: 1170px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 .nav-container{
     display: flex;
     align-items: center;
-    width: 50%;
+    
     
 }
 .nav-container img{
@@ -25,9 +29,15 @@ body{
     margin-right: 10px;
 }
 .nav-container p{
-  color: #131318;
+    color: #131318;
     font-size: 36px;
     font-weight: 800;
+    margin: 0px;
+   
+}
+.bar-container{
+  display: none;
+
 }
 .special{
     color: #FF5400   
@@ -50,6 +60,7 @@ body{
 .image-section {
     position: relative;
     text-align: center;
+    
   }
 
   .image-section img {
@@ -67,6 +78,7 @@ body{
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
+    padding: 20px;
   }
 
   .content-overlay h1 {
@@ -93,7 +105,7 @@ body{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
   }
-  .input-field {  
+  .banner-input {  
     font-size: 1rem;
     border: none;
     outline: none;
@@ -104,6 +116,20 @@ body{
     font-weight: 400;
     text-align: center;
   }
+
+  .form-container, .arrow-awesome{
+    display: flex;
+    text-align: center;
+    position: relative;
+
+  }
+  .down-arrow{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    color: gray;
+  }
+
   .button {
     border-radius: 8px;
     background: #FF5400;
@@ -180,7 +206,6 @@ body{
     padding: 20px;
     max-width: 1170px;
     margin: 0 auto;
-
   }
 
   h2 {
@@ -373,6 +398,7 @@ img {
 .footer-class{
   display: flex;
   align-items: center;
+ 
   
 }
 .footer-class p{
@@ -381,7 +407,7 @@ img {
   font-size: 2rem;
 }
 .special {
-  color: #FF5400
+  color: #FF5400;
   font-weight: 800px;
 }
 p {
@@ -393,7 +419,6 @@ p {
   font-weight: 400;
   line-height: 26px; 
 }
-
 
 
 .social-icons {
