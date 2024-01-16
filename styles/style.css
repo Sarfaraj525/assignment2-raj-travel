@@ -243,7 +243,7 @@ body{
   .choose-us-section {
 
     text-align: center;
-    padding: 20px;
+    
   }
 
  .choose-us-section h3{
@@ -265,45 +265,58 @@ body{
   .sections {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    
+    align-items: center;
+    margin-top: 20px;
   }
 
   .section1 {
-    height: 284px;
+    width: 573px;
+    height: 200px;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
-    
+    margin-right: 20px;
+    text-align: left;
+    padding: 20px;
 
   }
   .section2 {
-    text-align: start;
     width: 573px;
-    height: 284px;
+    height: 200px;
     border-radius: 16px;
-    border: 1px solid rgba(41, 206, 246, 0.20);
-    
+    border: 1px solid rgba(41, 206, 246, 0.20);    
     background: rgba(41, 206, 246, 0.05);
+    margin-left: 20px;
+    text-align: left;
+    padding: 20px;
+
      
 
   }
   .section3 {
-    text-align: start;
+    margin-top: 20px;
     width: 573px;
-    height: 284px;
+    height: 200px;
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
+    text-align: left;
+    padding: 20px;
+    
+    
+}
+.best-price{
+  align-items: center;
+  justify-content: center;
+}
+.section3 h5{
+  color: #5A5A5D;
+}
+.sections h5{
+  color: #5A5A5D;
 }
 
-.section1, .section2, .section3 h3 {
-  font-size: 1.5rem;
-  font-weight: 800;
-}
-  .icon{
-    width: 64px;
-height: 64px;
-  }
 
   /*start of newsletter*/
 
