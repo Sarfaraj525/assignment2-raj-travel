@@ -207,7 +207,6 @@ body{
     max-width: 1170px;
     margin: 0 auto;
   }
-
   h2 {
     font-size: 2em;
   }
@@ -221,15 +220,59 @@ body{
     line-height: 26px; 
   }
   .image-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
+    display: flex;
+    gap: 20px;
     margin-top: 20px;
   }
+  .image-grid-heading{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 20px;
+  }
+  .image-grid-heading1{
+    background: url(../Images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    width: 50%;
 
-  .image-grid img {
-    width: 100%;
-    height: auto;
+  }
+  .image-grid-heading2{
+    background: url(../Images/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 50%;
+  }
+  .image-grid-heading3{
+    background: url(../Images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 30%;
+  }
+  .image-grid-heading4{
+    background: url(../Images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 40%;
+  }
+  .image-grid-heading5{
+    background: url(../Images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 30%;
+  }
+  .image-grid-heading6{
+    background: url(../Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 45%;
+  }
+  .image-grid-heading7{
+    background: url(../Images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 55%;
   }
 
 
@@ -342,7 +385,6 @@ body{
     font-weight: 400;
 }
 .input-section input {
- 
   border-radius: 8px;
   background: rgba(19, 19, 24, 0.05);
   padding: 10px;
@@ -352,15 +394,16 @@ body{
   color: rgba(19, 19, 24, 0.30);
   font-weight: 400;
   border: none;
+  width: 90%;
 }
-button {
+.input-section button {
   border-radius: 8px;
   background: #FF5400;
   color: white;
   padding: 10px 20px;
   border: none;
   font-size: 1.25rem;
-  
+  width: 96%;
   font-weight: 800;
   text-align: center;
 }
@@ -392,9 +435,9 @@ button {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 1px solid tomato;
-  border-radius: 20px;
+  border: 1px solid gray;
   padding: 20px;
+  background-color: antiquewhite;
   
   
   
