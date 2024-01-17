@@ -1,56 +1,52 @@
  /* Media query for screens 600px or less */
  @media screen and (max-width: 600px) {
-    .item-container{
-      display: none;        
-    }  
-    .bar-container{
-      display: flex;
-      font-size: 30px;
-      align-items: center;
-      
-    }
+  .item-container{
+    display: none;        
+  }  
+  .bar-container{
+    display: flex;
+    font-size: 30px;
+    align-items: center;
     
-    .form-container {
-      
-      flex-direction: column;
-      margin-bottom: 20px;
-      
-  }
-  .content-overlay h1 {
-      
-      font-size: 2rem;
-      
-    }
-    .flex-container, .best-price, .sections, .newsletter-section, .image-grid {
-      flex-direction: column;
-    }
-    .left-side, .right-side {
-      width: 100%;
-      margin-bottom: 20px;
-  }
-  .right-side img {
-      width: 80%;
-      height: 200px;
-      border-radius: 16px;
-      margin-left: 0px;
-      padding: 20px;
   }
   
-  .input-img-section{
-      position: relative;
-    }
-    .discount{
-      position: absolute;
-      border-radius: 5px;
-      bottom: 8%;
-      left: 65%;
-      transform: rotate(-19.628deg);
-      width: 100px;
-      height: 60px;
-    }
+  .form-container {
+    flex-direction: column;
+    margin-bottom: 20px;
     
-    .image-grid-heading1, .image-grid-heading2, .image-grid-heading3, .image-grid-heading4, .image-grid-heading5, .image-grid-heading6, .image-grid-heading7, .image-grid-heading8{
-      width: 100%;
-  
-    }
+}
+.content-overlay h1 {
+    
+    font-size: 2rem;
+    
   }
+  .flex-container, .best-price, .sections, .newsletter-section, .image-grid, .partnership {
+    flex-direction: column;
+  }
+  .left-side, .right-side {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.right-side img {
+    width: 80%;
+    height: 200px;
+    border-radius: 16px;
+    margin-left: 0px;
+    padding: 20px;
+}
+
+.input-img-section{
+    position: relative;
+  }
+  .discount{
+    left: 70%;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+  }
+  
+  .image-grid-heading1, .image-grid-heading2, .image-grid-heading3, .image-grid-heading4, .image-grid-heading5, .image-grid-heading6, .image-grid-heading7, .image-grid-heading8{
+    width: 100%;
+
+  }
+}

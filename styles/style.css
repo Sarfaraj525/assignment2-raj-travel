@@ -66,7 +66,7 @@ body{
   .image-section img {
     max-width: 1170px;
     width: 100%;
-    height: 500px;
+    height: 550px;
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
   }
@@ -78,7 +78,7 @@ body{
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-    padding: 20px;
+    /* padding: 20px; */
   }
 
   .content-overlay h1 {
@@ -126,7 +126,7 @@ body{
   .down-arrow{
     position: absolute;
     top: 20px;
-    right: 0px;
+    right: 12px;
     color: gray;
   }
 
@@ -319,29 +319,27 @@ body{
   .sections {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
     margin-top: 20px;
   }
 
   .section1 {
-    /* width: 573px; */
     height: 200px;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
-    margin-right: 20px;
+    /* margin-right: 20px; */
     text-align: left;
     padding: 20px;
 
   }
   .section2 {
-    /* width: 573px; */
     height: 200px;
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);    
     background: rgba(41, 206, 246, 0.05);
-    margin-left: 20px;
+    /* margin-left: 20px; */
     text-align: left;
     padding: 20px;
 
@@ -350,7 +348,6 @@ body{
   }
   .section3 {
     margin-top: 20px;
-    /* width: 573px; */
     height: 200px;
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
@@ -445,13 +442,8 @@ body{
 .unique-section{
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 10px;
-  border: 1px solid gray;
   padding: 20px;
   background-color: antiquewhite;
-  
-  
-  
 }
 .unique-section h3{
   color: #131318;
@@ -459,38 +451,33 @@ body{
   font-size: 2.5rem;
   font-weight: 800;
 }
+.partnership{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
 .partner-logo {
-  width: 100px; 
-  height: auto
+  width: 100px;
 }
 
 /*start of footer section*/
 .footer {
-  
-  align-items: center;
+  /* align-items: center; */
   text-align: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   background-color: rgba(19, 19, 24, 0.05);
   width: 100%;
-  height: 300px;
+  /* height: 300px; */
   color: white;
-  margin-top: 20px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 30px 0px;
   
-}
-img {
-  width: 100px; 
-  height: auto;
-  margin-right: 10px;
 }
 .footer-class{
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
- 
-  
 }
 .footer-class p{
   color: #131318;
@@ -502,15 +489,14 @@ img {
   color: #FF5400;
   font-weight: 800px;
 }
-p {
-  margin-top: 10px;
+.footer p {
+  margin-top: 0px;
   font-size: 1rem;
   color: #5A5A5D;
   text-align: center;
   font-weight: 400;
   line-height: 26px; 
 }
-
 
 .social-icons {
   margin-top: 20px;
